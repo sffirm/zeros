@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+<script>
+
+getZerosCount(6214414);
+
+function getZerosCount(number) {
+	var zeroCount = 0;
+	while(number>= 5){
+		number = Math.floor(number / 5);
+		zeroCount = zeroCount + number;
+	}
+	console.log(zeroCount);
+}
+
+</script>
+
+</body>
+</html>
